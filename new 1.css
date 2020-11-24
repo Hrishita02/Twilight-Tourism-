@@ -95,3 +95,18 @@ form {
 /*body{
 	font-family: Helvetica, sans-serif;
 }*/
+.footer {
+color: white;
+box-sizing: border-box;
+padding: 3%;
+background-color: #000000;
+width:100%;
+
+}
+.footer #webmasterslist {
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff;
+    padding: 0;
+    text-align:center;
+}
