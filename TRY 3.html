@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="New_new.css">
+  <link rel="stylesheet" type="text/css" href="slide.css">
+<script>
+function validateForm() {
+    var x = document.forms["report"]["id"].value;
+    if (x == "") {
+        alert("Lab/Visit ID must be entered");
+        return false;
+    }
+}
+</script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#"><img src="logo.jpg" width="120" height="80"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index_new.html"><img src="Home Icon.png" width="22" height="22"></a></li>
+        <li><a href="All Tests.html"> BOOK A FlIGHT </a></li>
+        <li><a href="Medicines.html"> ABOUT US </a></li>
+        <li><a href="Contact.html"> CONTACT US </a></li>
+		<li><a href="tel:+01112344321"> CALL NO:- 011 1234 4321 </a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br><br><br>
+<div class="container-fluid">
+<div id="slideshow">
+  <div class="slide-wrapper">
+    <div class="slide"><h1 class="slide-number">Benefits of using Twilight Tourism</h1></div>
+    <div class="slide"><h1 class="slide-number">Convenient and Time-Saving</h1></div>
+    <div class="slide"><h1 class="slide-number">Flat 10% Casback On Flights With HDFC Bank Debit cards</h1></div>
+    <div class="slide"><h1 class="slide-number">Online Access to Early Hassle Free Check Ins</h1></div>
+  </div>
+</div>
+<form name="report" onsubmit= "return validateForm()">
+    <h3 align="center"> Login </h3><br>
+    <input type="text" name="id" placeholder="Twyfly Customer ID"> <br><br>
+    <input type="password" name="psswd" placeholder="Password"> <br><br>
+	<div class="g-recaptcha" data-sitekey="6Leme3sUAAAAAMe2uquj_Dr91PhFmfT3ysbFrLqd"></div>
+    <input type="Submit"> <br>
+</form>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h1 align="center"> BOOK NOW </h1>
+<br>
+<center> <button type=button  class="btn"><a href="Doctor.html"> BOOK NOW </a></button><br>
+<br>
+<h8>Not sure about the booking? <a href="notconfirm.html">Click Here</a></h8><br>
+<img class="img-responsive img-rounded" src="static-banner2.jpeg">
+<h2 class="headinghome"><span>Logistics Strength_________________________________________________________________
+</span><div class="all"></div></h2>
+<img src="hello.jpg">
+</center>
+</div>
+</body>
+</html>

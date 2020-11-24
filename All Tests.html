@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="New_new.css">
+  <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+  <title>Chitkara Labs</title>
+<style>
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.flex-container > div {
+  background-color: #d0e1e1;
+  margin: 10px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 20px;
+}
+#new{
+    background-color:white;
+}
+</style>
+<script>
+$(document).ready(function(){
+  $("#darkmode").click(function(){
+    $("body,navbar").toggleClass("white");
+	$("form").toggleClass("form-color");
+  });
+  $("#textbig").click(function(){
+    $(".container").css("font-size", "+=10px");
+});
+  $("#textsmall").click(function(){
+    $(".container").css("font-size", "-=10px");
+});
+});
+</script>
+</head>
+<body>
+<body id="myPage">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#"><img src="logo.jpg" width="120" height="80"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index_new.html"><img src="Home Icon.png" width="22" height="22"></a></li>
+        <li><a href="All Tests.html"> BOOK A FLIGHT </a></li>
+        <li><a href="TRY 3.html"> ABOUT US </a></li>
+        <li><a href="Contact.html"> CONTACT US </a></li>
+		<li><a href="tel:+01112344321"> CALL NO:- 011 1234 4321 </a></li>
+		<!--<li><a href="#"><button id="textbig">Text Bigger</button></a></li>
+		<li><a href="#"><button id="textsmall">Text Smaller</button></a></li>-->
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+<br><br><br>
+<button id="darkmode" class="btn" style="float:right;"><span class="glyphicon glyphicon-adjust"> Dark Mode</span></button>
+<br> <br>
+<div class="flex-container">
+  <div class="col-sm-4">Twyfly Basic Package<br>
+	 500 domestic Twyfly Km's<br>
+	 Monthly Disounts <br>
+	 1 Free Buisness upgrade <br>
+	 Rs.11000 
+	<button type=button class="btn btn-primary" onclick="alert('Thank You for Booking.')"> Book Now </button>
+  </div>
+  <div>Twyfly Defense Package<br>
+	  500 domestic Twyfly Km's  <br>
+	  Monthly Discounts <br>  
+          1 Free Buisness upgrade
+	  Rs.8999  
+	<button type=button class="btn btn-primary" onclick="alert('Thank You for Booking.')"> Book Now </button>
+	 
+  </div>
+  <div>Twyfly Super 1 Package<br>
+	  900 domestic Twyfly Km's  <br>
+	  Weekly Deals  <br>
+	  2 Free Buisness upgrade <br>
+	  Rs.15000 
+	<button type=button class="btn btn-primary" onclick="alert('Thank You for Booking.')"> Book Now </button>
+  </div>  
+  <div>Twyfly Super 2 Package<br>
+	  1500 domestic Twyfly Km's  <br>
+	  Weekly Deals  <br> 
+	  3 Free Buisness upgrade  <br>
+	  Rs.17999  
+	<button type=button class="btn btn-primary" onclick="alert('Thank You for Booking.')"> Book Now </button>
+  </div>
+  <div>Twyfly Super 3 Package<br>
+	 1500 domestic Twyfly Km's  <br>
+	 Weekly Deals  <br>  
+	 4 Free Buisness upgrade <br>
+	  Rs.24500  
+	<button type=button class="btn btn-primary" onclick="alert('Thank You for Booking.')"> Book Now </button>
+  </div>
+  <div>Twyfly Student Package<br>
+	  800 domestic Twyfly Km's  <br>
+	  Monthly Deals  <br>
+	  Rs.8000  
+	<button type=button class="btn btn-primary" onclick="alert('Thank You for Booking.')"> Book Now </button>
+  </div>  
+  <div>Twyfly Senior Citizen Package<br>
+	  1200 domestic Twyfly Km's  <br>
+	  Monthly Deals  <br>
+	  Rs.10000  
+	<button type=button class="btn btn-primary" onclick="alert('Thank You for Booking.')"> Book Now </button>
+  </div> 
+</div>
+</div>
+</body>
+</html>

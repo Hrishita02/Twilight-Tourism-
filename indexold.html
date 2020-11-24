@@ -1,0 +1,64 @@
+<html>
+<head>
+<title> Chitkara Labs </title>
+<link rel="stylesheet" type="text/css" href="new 1.css">
+<link rel="stylesheet" type="text/css" href="slide.css">
+<script>
+function validateForm() {
+    var x = document.forms["report"]["id"].value;
+    if (x == "") {
+        alert("Lab/Visit ID must be entered");
+        return false;
+    }
+}
+</script>
+<script src='https://www.google.com/recaptcha/api.js?render=6Leme3sUAAAAAMe2uquj_Dr91PhFmfT3ysbFrLqd'>
+</script>
+</head>
+<body>
+<img src="logo.png" style="align:left"><br><br>
+<ul>
+    <li> <a class="active" href="index.html"> <img src="Home Icon.png" width="22" height="22" bgcolor="orange"> </a> </li>
+	<li class="dropdown"> <a href="javascript:void(0)" class="dropbtn"> For Patients </a>
+    <div class="dropdown-content">
+      <a href="Patient.html">Book A Test</a>
+      <a href="All Tests.html">Test Menu</a>
+    </div>
+	</li>
+    <li class="dropdown"> <a href="javascript:void(0)" class="dropbtn"> For Doctors </a>
+    <div class="dropdown-content">
+      <a href="Doctor.html">Tests Lists</a>
+      <a href="Doctor.html">Test Clinical Forms</a>
+    </div></li>
+	<li> <a href="chitkarameds.html"> Order Medicine </a> </li>
+    <li> <a href="Contact.html"> Contact Us </a> </li>
+	<li style="float:right"><a> Call on:- 011 1234 4321 </a></li>
+</ul>
+<br> <br>
+<div id="slideshow">
+  <div class="slide-wrapper">
+    <div class="slide"><h1 class="slide-number">Benefits of using Chitkara Labs</h1></div>
+    <div class="slide"><h1 class="slide-number">Convenient and Time-Saving</h1></div>
+    <div class="slide"><h1 class="slide-number">Free Home Collection & Free Cancellation</h1></div>
+    <div class="slide"><h1 class="slide-number">Online Access to Reports</h1></div>
+  </div>
+</div>
+<form name="report" onsubmit= "return validateForm()">
+    <h3 align="center"> Login </h3><br>
+    <input type="text" name="id" placeholder="Lab/Visit ID"> <br><br>
+    <input type="password" name="psswd" placeholder="Password"> <br><br>
+	<div class="g-recaptcha" data-sitekey="6Leme3sUAAAAAMe2uquj_Dr91PhFmfT3ysbFrLqd"></div>
+    <input type="Submit"> <br>
+</form>
+<h1 align="center"> BOOK HOME COLLECTION ONLINE </h1>
+<br>
+<center> <button type=button a href="Patient.html"> BOOK NOW </button><br>
+<br>
+<h8>Not sure about the tests <a href="notconfirm.html">Click Here</a></h8><br>
+<img src="8.jpg">
+<br>
+<h2 class="headinghome"><span>Logistics Strength___________________________________________________________________________________________</span><div class="all"></div></h2>
+<img src="hello.jpg">
+</center>
+</body>
+</html>
